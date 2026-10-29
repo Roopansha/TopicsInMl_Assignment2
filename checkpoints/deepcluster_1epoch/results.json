@@ -1,0 +1,162 @@
+{
+ "deepcluster_bs128": {
+  "name": "deepcluster_bs128",
+  "batch_size": 128,
+  "epochs": 1,
+  "num_clusters": 100,
+  "pca_dim": 256,
+  "kmeans_iters": 20,
+  "optimizer": "SGD",
+  "lr": 0.025,
+  "momentum": 0.9,
+  "weight_decay": 1e-05,
+  "augmentations": "SimCLR: build_gpu_transform(s=0.5)",
+  "linear_eval_epochs": 100,
+  "seed": 0,
+  "history": {
+   "loss": [
+    3.7150629135278557
+   ],
+   "pseudo_label_acc": [
+    0.13259214743589742
+   ],
+   "nmi_labels": [
+    0.10199028738781334
+   ],
+   "nmi_previous": [],
+   "kmeans_loss": [
+    0.9300013780593872
+   ],
+   "empty_clusters": [
+    0
+   ],
+   "lr": [
+    0.025
+   ]
+  },
+  "best_test_acc": 0.4163,
+  "final_test_acc": 0.3631,
+  "final_nmi_labels": 0.13589043055363034,
+  "train_minutes": 0.8740710894266764
+ },
+ "deepcluster_bs256": {
+  "name": "deepcluster_bs256",
+  "batch_size": 256,
+  "epochs": 1,
+  "num_clusters": 100,
+  "pca_dim": 256,
+  "kmeans_iters": 20,
+  "optimizer": "SGD",
+  "lr": 0.05,
+  "momentum": 0.9,
+  "weight_decay": 1e-05,
+  "augmentations": "SimCLR: build_gpu_transform(s=0.5)",
+  "linear_eval_epochs": 100,
+  "seed": 0,
+  "history": {
+   "loss": [
+    3.73987305470002
+   ],
+   "pseudo_label_acc": [
+    0.13014823717948718
+   ],
+   "nmi_labels": [
+    0.10199028738781334
+   ],
+   "nmi_previous": [],
+   "kmeans_loss": [
+    0.9300013780593872
+   ],
+   "empty_clusters": [
+    0
+   ],
+   "lr": [
+    0.05
+   ]
+  },
+  "best_test_acc": 0.4285,
+  "final_test_acc": 0.4057,
+  "final_nmi_labels": 0.13658531737373944,
+  "train_minutes": 0.5550524751345317
+ },
+ "deepcluster_bs512": {
+  "name": "deepcluster_bs512",
+  "batch_size": 512,
+  "epochs": 1,
+  "num_clusters": 100,
+  "pca_dim": 256,
+  "kmeans_iters": 20,
+  "optimizer": "SGD",
+  "lr": 0.1,
+  "momentum": 0.9,
+  "weight_decay": 1e-05,
+  "augmentations": "SimCLR: build_gpu_transform(s=0.5)",
+  "linear_eval_epochs": 100,
+  "seed": 0,
+  "history": {
+   "loss": [
+    3.811125261267436
+   ],
+   "pseudo_label_acc": [
+    0.11974468427835051
+   ],
+   "nmi_labels": [
+    0.10199028738781334
+   ],
+   "nmi_previous": [],
+   "kmeans_loss": [
+    0.9300013780593872
+   ],
+   "empty_clusters": [
+    0
+   ],
+   "lr": [
+    0.1
+   ]
+  },
+  "best_test_acc": 0.4128,
+  "final_test_acc": 0.3502,
+  "final_nmi_labels": 0.13764317529572626,
+  "train_minutes": 0.6669639587402344
+ },
+ "deepcluster_bs1024": {
+  "name": "deepcluster_bs1024",
+  "batch_size": 1024,
+  "epochs": 1,
+  "num_clusters": 100,
+  "pca_dim": 256,
+  "kmeans_iters": 20,
+  "optimizer": "SGD",
+  "lr": 0.2,
+  "momentum": 0.9,
+  "weight_decay": 1e-05,
+  "augmentations": "SimCLR: build_gpu_transform(s=0.5)",
+  "linear_eval_epochs": 100,
+  "seed": 0,
+  "history": {
+   "loss": [
+    3.944782540202141
+   ],
+   "pseudo_label_acc": [
+    0.09584554036458333
+   ],
+   "nmi_labels": [
+    0.10199028738781334
+   ],
+   "nmi_previous": [],
+   "kmeans_loss": [
+    0.9300013780593872
+   ],
+   "empty_clusters": [
+    0
+   ],
+   "lr": [
+    0.2
+   ]
+  },
+  "best_test_acc": 0.4037,
+  "final_test_acc": 0.2922,
+  "final_nmi_labels": 0.13106623078494886,
+  "train_minutes": 0.5061085383097331
+ }
+}

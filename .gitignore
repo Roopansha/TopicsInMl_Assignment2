@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Model weights (45 MB each, 1+ GB in total); the results.json next to them are kept
+checkpoints/**/*.pt
+*.tmp
+
+# W&B local run files, except the batch-size summary the notebook reads
+wandb/*
+!wandb/run-20261029_012321-ll1rw0m7/
+wandb/run-20261029_012321-ll1rw0m7/*
+!wandb/run-20261029_012321-ll1rw0m7/files/
+wandb/run-20261029_012321-ll1rw0m7/files/*
+!wandb/run-20261029_012321-ll1rw0m7/files/wandb-summary.json
+
+# Old notebook backup
+SimCLR_DeepCluster_CIFAR10.backup.ipynb
